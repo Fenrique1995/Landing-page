@@ -10,18 +10,27 @@
         <img src="" alt="" id="header-img">
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="#">Number 1°</a></li>
-                <li><a class="nav-link" href="#">Number 2°</a></li>
-                <li><a class="nav-link" href="#">Number 3°</a></li>
+                <li><a class="nav-link" href="#first">Number 1°</a></li>
+                <li><a class="nav-link" href="#second">Number 2°</a></li>
+                <li><a class="nav-link" href="#third">Number 3°</a></li>
             </ul>
         </nav>
     </header>
     <br>
-    <form id="form">
-        <input type="email" id="email">
-    </form>   
+    <div id="first">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter email address" name="email" required><br>
+        <input id="submit" type="submit" value="Get Updates!" class="button">
+    </form> 
+    </div>  
     <br>
-    <video src="" id="video"></video>
+    <div id="second">
+        <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="third">
+
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>    
 </html>
