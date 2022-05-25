@@ -1,0 +1,10 @@
+iframe{
+    display:flex;
+
+}
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+  }
+  
